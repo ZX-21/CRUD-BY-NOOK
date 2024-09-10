@@ -25,7 +25,7 @@ LEFT JOIN participants ON meeting_participants.participant_id = participants.id"
      foreach($result as $res) {
          echo "<tr>";
          echo "<td>";
-         echo $res->id . "<br>";
+         echo $res->id_mp . "<br>";
          echo "</td>";
          echo "<td>";
          echo $res->meeting_title ."<br>";
